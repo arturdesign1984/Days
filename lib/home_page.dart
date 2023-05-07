@@ -71,7 +71,6 @@ class HomePage extends StatelessWidget {
                         child: Container(
                           padding: const EdgeInsets.all(5.0),
                           child: Text(
-                            'Сегодня - '
                             '${DateTime.now().day.toString()} '
                             '${ruMonthsGenitive[DateTime.now().month - 1]} '
                             '${DateTime.now().year.toString()}',
